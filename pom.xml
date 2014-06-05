@@ -10,8 +10,8 @@
     </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/khelemes/hello_junit.git</connection>
-        <developerConnection>scm:git:https://github.com/khelemes/hello_junit.git</developerConnection>
+        <connection>scm:git:git@github.com:khelemes/hello_junit.git</connection>
+        <developerConnection>scm:git:git@github.com:khelemes/hello_junit.git</developerConnection>
     </scm>
 
     <dependencies>
