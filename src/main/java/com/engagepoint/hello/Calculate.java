@@ -1,3 +1,5 @@
+package com.engagepoint.hello;
+
 /**
  * Created by lyolik on 05.06.2014.
  */

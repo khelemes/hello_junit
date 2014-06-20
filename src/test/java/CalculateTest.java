@@ -1,4 +1,5 @@
 /*http://devcolibri.com/864*/
+import com.engagepoint.hello.Calculate;
 import org.junit.Test;
 import static junit.framework.Assert.*;
 

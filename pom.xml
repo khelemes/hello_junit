@@ -27,6 +27,16 @@
             <artifactId>jacoco-maven-plugin</artifactId>
             <version>0.7.1.201405082137</version>
         </dependency>
+<!--        <dependency>
+            <groupId>net.schmizz</groupId>
+            <artifactId>sshj</artifactId>
+            <version>0.9.0</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.51</version>
+        </dependency>
     </dependencies>
 
     <build>
