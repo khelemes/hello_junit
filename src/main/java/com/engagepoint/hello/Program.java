@@ -15,7 +15,13 @@ import javax.swing.*;
 public class Program {
     public static void main(String[] arg) {
 
-        try {
+
+        Point p=new Point();
+        p.x=10;
+        p.y=32;
+        p.draw();
+        //ssh
+ /*       try {
             JSch jsch = new JSch();
             String user="root";
             String passwd="wasadmin";
@@ -45,7 +51,7 @@ public class Program {
 
         catch(Exception e){
             System.out.println(e);
-        }
+        }*/
     }
 
 
