@@ -14,6 +14,8 @@ public class TestThread implements Runnable{
         new Thread(new Runnable() {
             @Override
             public void run() {
+
+                System.out.println("Main start!");
                 for (int i=0; i<10; i++) {
                     System.out.println("Hello from a thread 1!");
                     try {
@@ -53,7 +55,7 @@ public class TestThread implements Runnable{
             }
         }).start();
 
-        new Thread(new Runnable() {
+        Thread t4=new Thread(new Runnable() {
             @Override
             public void run() {
                 for (int i=0; i<10; i++) {
@@ -65,8 +67,16 @@ public class TestThread implements Runnable{
                     }
                 }
             }
-        }).start();
+        });
+        t4.start();
+        try {
+            t4.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
+
+        System.out.println("Main finish!");
 /*        (new Thread(new TestThread())).start();
         (new Thread(new TestThread())).start();*/
     }
